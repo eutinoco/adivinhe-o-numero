@@ -35,6 +35,7 @@ function conferirPalpite() {
     if (palpiteUsuario === numeroAleatorio) {
         ultimoResultado.innerText = 'Parabéns! Você acertou!';
         ultimoResultado.style.backgroundColor = 'green';
+        // ultimoResultado.style.TextAlign = 'center'
         baixoOuAlto.innerText = '';
         configFimDeJogo();
     } else if (contagemPalpites === 10) {
